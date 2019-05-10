@@ -16,4 +16,4 @@ WORKDIR ${GRADLE_SOURCE}
 RUN wget https://services.gradle.org/distributions/gradle-$GRADLE_VERSION-bin.zip -O /tmp/gradle-$GRADLE_VERSION-bin.zip \
   && unzip /tmp/gradle-$GRADLE_VERSION-bin.zip -d /app \
   && rm /tmp/gradle-$GRADLE_VERSION-bin.zip \
-  && gradle dependencyCheckAnalyze --debug
+  && gradle dependencyCheckAnalyze --info
