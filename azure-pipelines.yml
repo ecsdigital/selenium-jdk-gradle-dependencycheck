@@ -18,5 +18,5 @@ steps:
     containerRegistry: dockerRegistryServiceConnection1
     repository: $(dockerId)
     tags: |
-      $(imageName):Build.BuildNumber
+      $(imageName):$(Build.BuildNumber)
       $(imageName):latest
