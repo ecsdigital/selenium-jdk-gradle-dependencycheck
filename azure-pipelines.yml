@@ -16,7 +16,7 @@ steps:
   inputs:
     command: buildAndPush
     containerRegistry: dockerRegistryServiceConnection1
-    repository: $(dockerId)
+    repository: $(dockerId)/$(imageName)
     tags: |
-      $(imageName):$(Build.BuildNumber)
-      $(imageName):latest
+      $(Build.BuildNumber)
+      latest
