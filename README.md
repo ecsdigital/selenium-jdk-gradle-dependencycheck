@@ -9,4 +9,4 @@ This project contains a dockerfile used to build a Docker image which adds the f
 ## Pipeline
 There is an Azure DevOps pipeline which builds this image and pushes to DockerHub:
 
-[![Build Status](https://dev.azure.com/TomChapman0353/ECS%20Digital/_apis/build/status/ECS%20Digital-Docker%20container-CI?branchName=master)](https://dev.azure.com/TomChapman0353/ECS%20Digital/_build/latest?definitionId=3?branchName=master)
+[![Build Status](https://dev.azure.com/ecsdigital/cucumber-container-ci/_apis/build/status/ecsdigital.selenium-jdk-gradle-dependencycheck?branchName=master)](https://dev.azure.com/ecsdigital/cucumber-container-ci/_build/latest?definitionId=5&branchName=master)
